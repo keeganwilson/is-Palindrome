@@ -1,7 +1,7 @@
 // Write your code below
 const isPalindrome = str => {
-    let str2 = str.split('').reverse().join('');
-    if (str2 === str) {
+    let strRev = str.split('').reverse().join('');
+    if (strRev === str) {
         return true;
     }   else return false;
 };
